@@ -7,14 +7,14 @@ class AiJail < Formula
   on_macos do
     on_arm do
       url "https://github.com/akitaonrails/ai-jail/releases/download/v#{version}/ai-jail-macos-aarch64.tar.gz"
-      sha256 "82ad4c0b2b1b7ab1cc9557cdceb1cac92a0fdf29e58b034297df73cfa86dfcb8"
+      sha256 "27621305d6918f53fb4c0d9c98ead6fd4ca436f4a59eaf4cb51f2ffb2a884d79"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/akitaonrails/ai-jail/releases/download/v#{version}/ai-jail-linux-x86_64.tar.gz"
-      sha256 "13608813b820939d99822da8570594727223ba8655280561b4716536165ead2c"
+      sha256 "3d8e7fc88d239b3afe0562e40a713e4b9b89149220a2842011ce163dad56ad74"
     end
   end
 
