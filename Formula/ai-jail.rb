@@ -1,20 +1,20 @@
 class AiJail < Formula
   desc "Sandbox wrapper for AI coding agents"
   homepage "https://github.com/akitaonrails/ai-jail"
-  version "0.4.0"
+  version "0.5.0"
   license "GPL-3.0-only"
 
   on_macos do
     on_arm do
       url "https://github.com/akitaonrails/ai-jail/releases/download/v#{version}/ai-jail-macos-aarch64.tar.gz"
-      sha256 "92609781df0436fe59a9409bb9cdf3df7bd55890e5f4e3adb1184686476c99e2"
+      sha256 "686b1ac5a38e5b7f1e8ccf778a3e323473969cb3352fd36299ac7c0174697aab"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/akitaonrails/ai-jail/releases/download/v#{version}/ai-jail-linux-x86_64.tar.gz"
-      sha256 "3a7290f9578dfdabf26578ddebb15952ae37f193af1eb8418f0013369a1c6b2d"
+      sha256 "bc851273428c7c1d3cbb2448d1e4920ba5b5b11985477f465a72e9fab2936b01"
     end
   end
 
