@@ -1,20 +1,20 @@
 class EasySubtitle < Formula
   desc "Automated subtitle extraction, downloading, and synchronization"
   homepage "https://github.com/akitaonrails/easy-subtitle"
-  version "0.3.2"
+  version "0.4.0"
   license "GPL-3.0-or-later"
 
   on_macos do
     on_arm do
       url "https://github.com/akitaonrails/easy-subtitle/releases/download/v#{version}/easy-subtitle-macos-arm64.tar.gz"
-      sha256 "28498ebd7df6366a89a40ad6a43f1587d7923dcc8cd73076d901bc03981eeabc"
+      sha256 "5816f2eb612f547f09480237ad3864cd2901b130bd5538d7064236c2b73364fd"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/akitaonrails/easy-subtitle/releases/download/v#{version}/easy-subtitle-linux-x86_64.tar.gz"
-      sha256 "59a5ba68eef795b4b850916a238d9757e2723c4e16574583b60bee8be6cc6cb1"
+      sha256 "f82aa0af215e6e9eb4481a412a760978d26154157bd88fa662571d19ed0cbf52"
     end
   end
 
