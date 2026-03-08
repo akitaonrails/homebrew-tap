@@ -1,7 +1,7 @@
 class EasyFfmpeg < Formula
   desc "Smart CLI wrapper around ffmpeg for video conversion and remuxing"
   homepage "https://github.com/akitaonrails/easy-ffmpeg"
-  version "0.2.0"
+  version "0.2.1"
   license "MIT"
 
   on_macos do
