@@ -1,14 +1,14 @@
 class EasyFfmpeg < Formula
   desc "Smart CLI wrapper around ffmpeg for video conversion and remuxing"
   homepage "https://github.com/akitaonrails/easy-ffmpeg"
-  version "0.2.1"
+  version "0.2.2"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/akitaonrails/easy-ffmpeg/releases/download/v#{version}/easy-ffmpeg-darwin-arm64",
 using: CurlDownloadStrategy
-      sha256 "fe631f21c0e8a7752d43ce9405b7184715c1794527757dfe230d301f22f0e21f"
+      sha256 "6de77286395e5c7683344b95e261b46d8f107e04ce0cc7ceeb39d561b28a166c"
     end
   end
 
@@ -16,13 +16,13 @@ using: CurlDownloadStrategy
     on_intel do
       url "https://github.com/akitaonrails/easy-ffmpeg/releases/download/v#{version}/easy-ffmpeg-linux-amd64",
 using: CurlDownloadStrategy
-      sha256 "08649b92715a743218be5e835f782c0afa21d2bc9133624a9fbd01f549b74ae5"
+      sha256 "31461a173c9b8d4d9b2dbeeacb20bb36f1b856b61fd5a35c895d6b140ab79b44"
     end
 
     on_arm do
       url "https://github.com/akitaonrails/easy-ffmpeg/releases/download/v#{version}/easy-ffmpeg-linux-arm64",
 using: CurlDownloadStrategy
-      sha256 "de7d39780b5a76e0dc9455ed8bb267555f8cb79f45333fdd263677937f1b6e51"
+      sha256 "2907568302d85197bb929704e0e626a18b90cfb61fe9d59db3bda479cf23649a"
     end
   end
 
