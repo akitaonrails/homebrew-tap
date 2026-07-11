@@ -1,20 +1,20 @@
 class Ghpending < Formula
   desc "Watch GitHub repos for open issues and pull requests at a glance"
   homepage "https://github.com/akitaonrails/ghpending"
-  version "0.3.4"
+  version "0.4.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/akitaonrails/ghpending/releases/download/v#{version}/ghpending-macos-aarch64.tar.gz"
-      sha256 "27c6f94dc49b5777417e0554624e6797ae4abb4bbabfdba3c3af0ec1fd0964c8"
+      sha256 "b32d9e02334e2cd6b4dbad669d1dfc05b612fbee3485874bdb027de08b969f25"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/akitaonrails/ghpending/releases/download/v#{version}/ghpending-linux-x86_64.tar.gz"
-      sha256 "2ba3ee8fe5117e356571aa11c9e41c5087dd53c924afd2676a4c005a49e8e75f"
+      sha256 "175e83c250f5d2532871e13bc2729235b0a6ff1fe54e2c4c261eadefb365d80a"
     end
   end
 
