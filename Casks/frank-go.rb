@@ -1,14 +1,14 @@
 cask "frank-go" do
-  version "0.3.10"
+  version "0.3.11"
 
   on_arm do
-    sha256 "96817312e57badc851f26cba13dc4a8d687b1eff6c7039bda6d16977deb472be"
+    sha256 "2c3d5b61e1e9b98f018a9c80abfa894ad1359d3793b23bb3474a44d0aaa7e66a"
 
     url "https://github.com/akitaonrails/frank_go/releases/download/v#{version}/frank-go-v#{version}-mac-arm64.dmg",
         verified: "github.com/akitaonrails/frank_go/"
   end
   on_intel do
-    sha256 "699f85695131960aab2f1a2a082f2cf7f5b06e174215fdafdaa2c161c59fecaa"
+    sha256 "1b33da6f9a56444d580b98f07fb9bc8515cc74c8ea8e577b7671e654bfbd9823"
 
     url "https://github.com/akitaonrails/frank_go/releases/download/v#{version}/frank-go-v#{version}-mac-x64.dmg",
         verified: "github.com/akitaonrails/frank_go/"
