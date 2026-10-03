@@ -33,6 +33,14 @@ class AiMemory < Formula
     bin.write_exec_script libexec/"ai-memory"
   end
 
+  service do
+    run [opt_bin/"ai-memory", "serve", "--transport", "http", "--enable-web"]
+    keep_alive true
+    process_type :interactive
+    log_path var/"log/ai-memory.log"
+    error_log_path var/"log/ai-memory.log"
+  end
+
   test do
     assert_match version.to_s, shell_output("#{bin}/ai-memory --version")
   end
