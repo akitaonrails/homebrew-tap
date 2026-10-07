@@ -1,20 +1,20 @@
 class AiJail < Formula
   desc "Sandbox wrapper for AI coding agents"
   homepage "https://github.com/akitaonrails/ai-jail"
-  version "2.6.4"  # Rendered from verified release artifacts by release.yml.
+  version "2.7.0"  # Rendered from verified release artifacts by release.yml.
   license "GPL-3.0-only"
 
   on_macos do
     on_arm do
       url "https://github.com/akitaonrails/ai-jail/releases/download/v#{version}/ai-jail-macos-aarch64.tar.gz"
-      sha256 "2563884af5c29e761612e38f50c970e51d0a94e64ed59c167a327b886bffc169"  # Replaced with the signed archive checksum.
+      sha256 "3c6a4cc41212f337ba72e1895b11dd10ae620b5bb86d384919a7e29aeb8ff0ba"  # Replaced with the signed archive checksum.
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/akitaonrails/ai-jail/releases/download/v#{version}/ai-jail-linux-x86_64.tar.gz"
-      sha256 "7749b73435686b783567bf0427f7cdf4faf7783ac31b1d590d0454048b243d4b"  # Replaced with the verified archive checksum.
+      sha256 "b8b5ef75027d0d6bd9d2d2f2cfc20e83a4f0916e7237604fea3b81f85eaee067"  # Replaced with the verified archive checksum.
     end
   end
 
