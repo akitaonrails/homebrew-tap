@@ -1,30 +1,30 @@
 class AiMemory < Formula
   desc "Long-term memory for AI coding agents over MCP and lifecycle hooks"
   homepage "https://github.com/akitaonrails/ai-memory"
-  version "2.6.2"
+  version "2.6.3"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/akitaonrails/ai-memory/releases/download/v#{version}/ai-memory-macos-aarch64.tar.gz"
-      sha256 "675f59127d108778b76dc0caeb6b932180522513e0001dce3172372e8747c62c"
+      sha256 "a2a470380a0bbcd8df398b2dea44855ad55244cd966c7250180813a5e02f694c"
     end
 
     on_intel do
       url "https://github.com/akitaonrails/ai-memory/releases/download/v#{version}/ai-memory-macos-x86_64.tar.gz"
-      sha256 "bc269ed4950049281251b9f3f1046394372e6ac1124dc811c839107e07ae614e"
+      sha256 "cf684d46e5e6137492d28467f96c7de3c61d07beab9f4ca229bed4e7aeaab86f"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/akitaonrails/ai-memory/releases/download/v#{version}/ai-memory-linux-aarch64.tar.gz"
-      sha256 "587cb5d3ee2afcbadc282db1d7ee955157224d706d52bf89b18df5e2769f7e9c"
+      sha256 "e4e01409fe80148a4d561aef98ac5d526c488c4a621faa759f9d0b3ed2606088"
     end
 
     on_intel do
       url "https://github.com/akitaonrails/ai-memory/releases/download/v#{version}/ai-memory-linux-x86_64.tar.gz"
-      sha256 "dc73118f772763a119b03d387f6f44f0b866d85498851b74aa5152944ef2e650"
+      sha256 "933be9bb8fe6930336933f0b8adf0695007e644f945898f9f030fd312326f0f3"
     end
   end
 
