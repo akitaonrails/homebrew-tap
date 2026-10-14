@@ -33,6 +33,20 @@ class AiMemory < Formula
     bin.write_exec_script libexec/"ai-memory"
   end
 
+  def caveats
+    <<~EOS
+      Finish the install with:
+        ai-memory setup
+      It creates the data dir and its bearer token, installs and starts its
+      own LaunchAgent (or systemd user unit), wires the agents it finds, and
+      checks the result. It shows the plan and asks first.
+
+      Use either `ai-memory setup` or `brew services start ai-memory`, not
+      both. With `brew services`, run `ai-memory init` first, then wire your
+      agents with `ai-memory setup --no-service`.
+    EOS
+  end
+
   service do
     run [opt_bin/"ai-memory", "serve", "--transport", "http", "--enable-web"]
     keep_alive true
